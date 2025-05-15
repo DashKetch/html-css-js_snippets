@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Tools</title>
+    <link rel="stylesheet" href="styles.css"
+</head>
+<body>
+    <div class="header">
+        <h1>|   🅆🄴🄱 | 🅃🄾🄾🄻🅂   |</h1>
+        <h3>Find my email in the other resources widget.</h3>
+    </div>
+
+    <div class="container">
+        <div class="widget" style="width: 600px; height: 500px;">
+            <h2>Google Search</h2>
+            <form action="https://www.google.com/search" method="GET" target="_blank">
+                <input type="text" name="q" placeholder="Search Google..." required>
+                <button type="submit">Search</button>
+            </form>
+            <h6>⬆This will redirect you to a new tab!⬆</h6>
+            <br>
+            <div class="bulletinBoard">
+                <h2>Bulletin Board:</h2>
+            <!-- use <br> in between each bulletin-->
+                <ul>
+                    <li><p>You can find my other games on my profile; Dash_Ketch on Scratch</p></li>
+                    <br>
+                    <li><p>Email me if you have a suggestion for a feature that will improve your productivity!</p></li>
+                    <br>
+                    <li><p>I created a GitHub repo with <a href="https://github.com/DashKetch/html-css-js_snippets/tree/HTML">some of the code used in this project.</a> Feel free to check it out!</p>
+                </ul>
+            </div>
+        </div>
+
+        <div class="widget" style="width: 700px; height: 200px;">
+            <h2>Latest News</h2>
+            <ul id="news-list"></ul>
+        </div>
+
+        <div class="widget">
+            <h2>Notes</h2>
+            <p>Notes do NOT save upon refresh, so print them if needed.</p>
+            <textarea id="notes" rows="5" cols="30" placeholder="Write your notes here..."></textarea>
+            <br>
+            <button position: "absolute"; left: "50%"; transform: "translateX(-50%)"; onclick="printNotes()">Print Notes</button>
+        </div>
+
+                <div class="widget">
+            <h2>World Clocks</h2>
+            <div id="world-clocks"></div>
+        </div>
+
+        <div class="widget">
+            <h2>Calculator</h2>
+            <iframe frameborder="1" width="219" height="302" src="https://calculator-1.com/outdoor/?f=666666&r=666666" scrolling="no"></iframe>
+        </div>
+
+        <div class="widget">
+            <h2>Other Resources</h2>
+            <button onclick="openDevResources()">Dev Resources</button>
+            <button onclick="openMinecraftServerResources()">MC Server Resources</button>
+            <button onclick="mailToNate()">Email the Dev</button>
+        <!--<button onclick="openGitHubRepo()">Go to Github Repo</button>
+            <button onclick="testHTML()">Dev Testing</button>-->
+        </div>
+
+        <div class="widget">
+            <h2>30 Second Music Snippets</h2>
+            <iframe src="https://embed.tidal.com/playlists/c28a8106-9094-47e0-8247-c172f5e247a6" width="700" height="600" allow="encrypted-media" sandbox="allow-same-origin allow-scripts allow-forms allow-popups" title="TIDAL Embed Player"></iframe>
+        </div>
+
+        <div class="widget">
+            <h2><a href="https://scratch.mit.edu/projects/917180288">Stress Reliever Game</a></h2>
+            <iframe src="https://scratch.mit.edu/projects/917180288/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
+        </div>
+    </div>
+
+    <h5>&copy; Copyright Dash_Ketch Coding and all affiliates.</h5>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
