@@ -1,5 +1,5 @@
         async function fetchNews() {
-            const apiKey = "M2aILPy8JcWS55hx5MsoH6yYeT2UHwKtkf9uIMdY";
+            const apiKey = //api key here//;
             const url = `https://api.thenewsapi.com/v1/news/top?api_token=${apiKey}&locale=us&limit=5`;
 
             try {
