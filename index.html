@@ -13,7 +13,7 @@
     </div>
 
     <div class="container">
-        <div class="widget" style="width: 600px; height: 500px;">
+        <div class="widget" style="width: 600px; height: 650px;">
             <h2>Google Search</h2>
             <form action="https://www.google.com/search" method="GET" target="_blank">
                 <input type="text" name="q" placeholder="Search Google..." required>
@@ -29,7 +29,9 @@
                     <br>
                     <li><p>Email me if you have a suggestion for a feature that will improve your productivity!</p></li>
                     <br>
-                    <li><p>I created a GitHub repo with <a href="https://github.com/DashKetch/html-css-js_snippets/tree/HTML">some of the code used in this project.</a> Feel free to check it out!</p>
+                    <li><p>I created a GitHub repo with <a href="https://github.com/DashKetch/html-css-js_snippets/tree/main">some of the code used in this project.</a> Feel free to check it out!</p>
+                    <br>
+                    <li><p><a href="https://domanddrewgaragegoblins.w3spaces.com" alt="Dom and Drew Garage Goblins" title="Dom and Drew Garage Goblins">Vist Dom and Drew Garage Goblins</a> if you want your garage cleaned but you don't want to do it!</p></li>
                 </ul>
             </div>
         </div>
@@ -75,8 +77,39 @@
             <h2><a href="https://scratch.mit.edu/projects/917180288">Stress Reliever Game</a></h2>
             <iframe src="https://scratch.mit.edu/projects/917180288/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
         </div>
-    </div>
 
+        <div class="widget">
+            <h2>Timer Widget</h2>
+            <select id="modeSelect">
+                <option value="stopwatch">Stopwatch</option>
+                <option value="timer">Countdown Timer</option>
+                <option value="alarm">Alarm</option>
+            </select>
+
+            <div id="stopwatchSection" class="mode-section active">
+                <div class="display" id="stopwatchDisplay">00:00:00</div>
+                <button onclick="startStopwatch()">Start</button>
+                <button onclick="stopStopwatch()">Stop</button>
+                <button onclick="resetStopwatch()">Reset</button>
+            </div>
+
+            <div id="timerSection" class="mode-section">
+                <input type="number" id="timerMinutes" placeholder="Minutes" min="0">
+                <div class="display" id="timerDisplay">00:00</div>
+                <button onclick="startTimer()">Start</button>
+                <button onclick="stopTimer()">Stop</button>
+                <button onclick="resetTimer()">Reset</button>
+            </div>
+
+            <div id="alarmSection" class="mode-section">
+                <input type="time" id="alarmTime">
+                <div class="display" id="alarmDisplay">Alarm not set</div>
+                <button onclick="setAlarm()">Set Alarm</button>
+                <button onclick="clearAlarm()">Clear Alarm</button>
+            </div>
+        </div>
+    </div>
+    
     <h5>&copy; Copyright Dash_Ketch Coding and all affiliates.</h5>
 
     <script src="scripts.js"></script>
