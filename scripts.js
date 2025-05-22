@@ -20,22 +20,22 @@
                 window.location.href = "mailto:natedaskew@gmail.com";
         }
 
-    function openGitHubRepo() {
-    window.location.href = "https://github.com/DashKetch/html-css-js_snippets/tree/HTML";
-    }
-
-    function testHTML() {
-        const password = prompt("Enter the password to access the Dev's Testing Page:");
-        if (password && password.trim() === "DashKetch") {
-            window.location.href = "https://dashketchcoding.w3spaces-preview.com/test-files/test-page.html";
-        } else {
-            alert("Incorrect Password!");
+        function openGitHubRepo() {
+                window.location.href = "https://github.com/DashKetch/html-css-js_snippets/tree/HTML";
         }
-    }
+
+        function testHTML() {
+                const password = prompt("Enter the password to access the Dev's Testing Page:");
+                if (password && password.trim() === "DashKetch") {
+                    window.location.href = "https://dashketchcoding.w3spaces-preview.com/test-files/test-page.html";
+                } else {
+                    alert("Incorrect Password!");
+                }
+        }
 
 
         async function fetchNews() {
-            const apiKey = "M2aILPy8JcWS55hx5MsoH6yYeT2UHwKtkf9uIMdY";
+            const apiKey = "[API KEY HERE]";
             const url = `https://api.thenewsapi.com/v1/news/top?api_token=${apiKey}&locale=us&limit=5`;
 
             try {
