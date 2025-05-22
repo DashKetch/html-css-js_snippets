@@ -79,3 +79,13 @@
         li {
             list-style: square;
         }
+
+        .widget button {
+          margin: 5px;
+        }
+        .mode-section {
+        display: none;
+        }
+       .mode-section.active {
+        display: block;
+        }
