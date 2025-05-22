@@ -1,0 +1,4 @@
+Google Search - https://www.google.com/search
+Git Hub Repo - https://github.com/DashKetch/html-css-js_snippets/tree/main
+Dom and Drew Garage Goblins - https://domanddrewgaragegoblins.w3spaces.com
+Calculator (Embed) - https://calculator-1.com/outdoor/?f=666666&r=666666
