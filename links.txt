@@ -2,3 +2,8 @@ Google Search - https://www.google.com/search
 Git Hub Repo - https://github.com/DashKetch/html-css-js_snippets/tree/main
 Dom and Drew Garage Goblins - https://domanddrewgaragegoblins.w3spaces.com
 Calculator (Embed) - https://calculator-1.com/outdoor/?f=666666&r=666666
+TIDAL Playlist (Embed) - https://embed.tidal.com/playlists/c28a8106-9094-47e0-8247-c172f5e247a6
+Scratch Game - https://scratch.mit.edu/projects/917180288
+Scratch Game (Embed) - https://scratch.mit.edu/projects/917180288/embed
+Email Dev - mailto:natedaskew@gmail.com
+Fetch News - https://api.thenewsapi.com/v1/news/top?api_token=${apiKey}&locale=us&limit=5
