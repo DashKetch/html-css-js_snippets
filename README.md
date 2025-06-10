@@ -14,7 +14,7 @@ html-css-js_snippets/
 ├── scripts.js      # JavaScript logic for interactivity
 ├── README.md       # Documentation and usage info
 └── LICENSE         # MIT License
-Each snippet is designed to be minimal and focused on a single concept. You can preview everything by opening index.html in a web browser.
+Each snippet is designed to be minimal and focused on a single concept. You can preview everything by opening index.html in a web browser. Custom embeddable widgets will be scripts, css, and HTML in one file for ease of embedding and preview.
 
 🚀 Getting Started
 To use or test the snippets locally, follow these steps:
